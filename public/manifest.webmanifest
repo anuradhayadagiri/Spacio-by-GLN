@@ -1,0 +1,47 @@
+{
+  "name": "Spacio by GLN",
+  "short_name": "Spacio",
+  "description": "Book spaces, stays, dining, experiences, parking and wellness in one secure marketplace.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#101C3D",
+  "theme_color": "#1E40AF",
+  "categories": ["travel", "lifestyle", "business", "shopping"],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Explore",
+      "short_name": "Explore",
+      "url": "/explore",
+      "description": "Discover nearby spaces and experiences"
+    },
+    {
+      "name": "Bookings",
+      "short_name": "Bookings",
+      "url": "/bookings",
+      "description": "Open your booking passes"
+    },
+    {
+      "name": "Host",
+      "short_name": "Host",
+      "url": "/host",
+      "description": "Manage listings and earnings"
+    }
+  ]
+}
